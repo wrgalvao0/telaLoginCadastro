@@ -1,0 +1,18 @@
+.imagem-destaque-cadastro{
+    background-image: url('../img/hello.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+@media (min-width: 768px){
+    .imagem-destaque-cadastro{
+        width: 40vw;
+        height: 15vh;
+    }
+}
+@media (min-width: 992px){
+    .imagem-destaque-cadastro{
+        width: 40vw;
+        height: 30vh;
+    }
+}
