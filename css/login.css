@@ -1,0 +1,21 @@
+.imagem-destaque{
+    background-image: url('../img/sign_in.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh;
+}
+@media (min-width: 992px){
+    .container{
+        height: 60vh;
+    }
+    .imagem-destaque{
+        background-image: url('../img/sign_in.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 35vh;
+    }
+}
