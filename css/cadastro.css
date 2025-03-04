@@ -4,6 +4,22 @@
     background-repeat: no-repeat;
     height: 30vh;
 }
+.inputs{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+.btn{
+    background-color: #6e62ff;
+    border: 1px solid #6e62ff;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #6e62ff;
+    border-color: #6e62ff;
+}
+
 @media (min-width: 768px){
     .imagem-destaque-cadastro{
         width: 40vw;

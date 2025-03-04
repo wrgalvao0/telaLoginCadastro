@@ -15,10 +15,14 @@
         <div class="container d-flex flex-column shadow-lg rounded-4 p-4 mx-3 flex-md-row p-lg-5">
             <div class="flex-fill d-lg-flex flex-lg-column justify-content-lg-center">
                 <h1 class="fs-2 mb-lg-3 text-center"> Faça o login para continuar</h1>
-                <label for="email" class="form-label">Digite o seu email</label>
-                <input type="email" class="form-control mb-lg-3" required>
-                <label for="senha" class="form-label">Digite a sua senha</label>
-                <input type="password" class="form-control"required>
+                <div class="form-floating">
+                    <input type="email" class="form-control mb-lg-3 inputs" id="email" name="email" placeholder="Digite o seu email" required>
+                    <label for="email">Digite o seu email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control inputs" id="senha" placeholder="Digite a sua senha">
+                    <label for="senha" class="form-label">Digite a sua senha</label>
+                </div>
                 <div class=" d-flex justify-content-center mt-3 mb-4">
                     <button class="btn btn-primary w-50 mt-lg-3">Entrar</button>
                 </div>
